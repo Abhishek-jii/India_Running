@@ -122,7 +122,7 @@ export default function Stories() {
                         </div>
                         {/* Shop Button */}
                         <div className="hidden md:flex text-green-700 bg-green-300 py-2 font-semibold rounded-2xl md:rounded-lg items-center mx-1 px-4 text-sm h-12 hover:cursor-pointer">
-                            <a href="/shop">
+                            <Link href="/shop">
                                 <div className="flex gap-2 bg-green-300 justify-center items-center mx-auto lg:text-sm">
                                     <span className="lg:text-sm text-center flex items-center">
                                         Shop
@@ -133,15 +133,15 @@ export default function Stories() {
                                         />
                                     </span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="hidden md:flex text-pink-800 bg-pink-200 py-2 font-semibold rounded-2xl md:rounded-lg items-center mx-1 px-4 text-sm h-12 hover:cursor-pointer">
-                            <a href="https://organiser.indiarunning.com">
+                            <Link href="/events/create">
                                 <div className="flex gap-2 justify-center items-center mx-auto lg:text-sm">
                                     <span className="lg:text-sm text-center">Create Event</span>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
 
 
